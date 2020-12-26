@@ -116,7 +116,7 @@
 			 <ul>
                   <li><i class="icofont-nerd-smile"></i> <strong>Visual Analytics</strong>
 					<ul style="font-size:small;">
-						<li><i class="icofont-thin-right"></i>Web-based integration of data mining and interactive visualization</li>
+						<li>https://github.com/AsalJalilvand/rueters_corpus_classificationWeb-based integration of data mining and interactive visualization</li>
 					</ul>
 				  </li>
                   
@@ -285,6 +285,72 @@
 
       </div>
     </section><!-- End Resume Section -->
+	
+	<!-- ======= Portfolio Section ======= -->
+    <section id="projects" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active" style="background:#fff;">All</li>
+              <li data-filter=".filter-ml" style="background:#c1f5f5;">Machine Learning</li>
+              <li data-filter=".filter-vis" style="background:#f5e1c1;">Interactive Visualization</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="portfolio-container" data-aos="fade-up" data-aos-delay="100">
+		
+		
+          <div class="portfolio-item filter-ml shadow-sm rounded" style="background:#c1f5f5;">
+              <h5>Exploratory Data Analysis and Quantile Regression with LightGBM and Pytorch </h5>
+			  <p>Having learnt about quantile regression, I decided to try it myself and it resulted in <a href="https://www.kaggle.com/asal73/eda-quantile-regression-lightgbm-pytorch">
+			  this Kaggle kernel</a>. I did a series of exploratory data analysis steps to understand the data better, then I tried two tree-based 
+			  and neural network models for quantile regression. I also performed linear regression assumption check to see if it makes sense to use
+			  quantile regression on this data after all. More detail is explained in the kernel.</p>
+			  <a href="https://colab.research.google.com/drive/1w_9WX7mxQKYWWpkFez7YX135egzp4Mst?usp=sharing">
+			  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+			  <a href="https://github.com/AsalJalilvand/kaggle">
+			  <i class="icofont-code"></i> Code</a>
+          </div>
+		  
+          <div class="portfolio-item filter-ml shadow-sm rounded" style="background:#c1f5f5;">
+              <h5>Reuters Corpus text classification with Keras</h5>
+			  <p>This project was done as the final project of <em>Machine Learning for Bid Data</em> course, fall 2019. The goal is to train a model to 
+			  classify news articles into topics. I used deep autoencoders for feature extraction and deep neural network for classification. I 
+				tried both TF-IDF and Glove word embeddings for text representation to find out which one performed best with this dataset.
+				In the Reuters Corpus, each article has multiple topics, which was a chance for me to explore both multi-class 
+				(just take one topic per document) and multi-label (multiple topics per document) classifications as well.</p>
+			  <a href="https://colab.research.google.com/drive/1mzWNacITgIOnYdtAWhLOqaesZfbJB6k3?usp=sharing">
+			  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+			  <a href="https://github.com/AsalJalilvand/rueters_corpus_classification">
+			  <i class="icofont-code"></i> Code</a>
+           </div>
+		   
+		    <div class="portfolio-item filter-vis shadow-sm rounded" style="background:#f5e1c1;">
+              <h5>Interactive RadVis and Star Coordinates with D3</h5>
+			  <p>RadVis and Star Coordinates are used for visualization of multivariate datasets in a 2D projection. This interactive implementation
+			  allows the user to select dataset of choice, change colours, move the anchors/axes and more.</p>
+			  <a href="https://bl.ocks.org/AsalJalilvand/raw/fdef69b4d77ca698921fad9e987675f6/">
+			  <i class="icofont-dashboard-web"></i> Demo</a>
+			  
+			  <a href="https://github.com/AsalJalilvand/radvis">
+			  <i class="icofont-code"></i> Code</a>			  			  
+            </div>
+		  
+		  
+
+         </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
 
 
     <!-- ======= Contact Section ======= -->
