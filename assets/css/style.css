@@ -286,9 +286,11 @@ section {
   overflow: hidden;
 }
 
+/*
 .section-bg {
   background: #f5f8fd;
 }
+*/
 
 .section-title {
   padding-bottom: 30px;
@@ -869,6 +871,11 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #37b3ed;
+}
+
+.goodbye img {
+  width: 50px;
+  height: 50px;
 }
 
 @-webkit-keyframes animate-loading {
