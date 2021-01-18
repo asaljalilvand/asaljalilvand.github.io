@@ -8,6 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.badge-tech
+{
+background-color: #ef5772;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -510,6 +514,16 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio a {
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio a:hover {
+  color: lightgrey;
+  text-decoration: none;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 7px;
   padding: 6px;
