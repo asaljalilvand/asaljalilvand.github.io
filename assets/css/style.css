@@ -10,7 +10,8 @@
 --------------------------------------------------------------*/
 .badge-tech
 {
-background-color: #ef5772;
+background-color: #FF9B9E;
+font-size: small;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -18,12 +19,12 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #37b3ed;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #47c2f6;
   text-decoration: none;
 }
 
@@ -48,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #149ddd;
+  background: #4780C8;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -63,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: #87ADDE;
   transition: background 0.2s ease-in-out;
 }
 
@@ -80,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background:  #556D8C;
   overflow-y: auto;
 }
 
@@ -162,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #D2E4FF;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -172,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #D2E4FF;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -227,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: #E8CFB8;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -315,7 +316,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #7da3f8;
   bottom: 0;
   left: 0;
 }
@@ -444,7 +445,7 @@ section {
 }
 
 .skills .content ul i {
-  color: #149ddd;
+  color: #556D8C;
 }
 
 .skills .content ul li {
@@ -469,7 +470,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #556D8C;
   position: relative;
 }
 
@@ -484,7 +485,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #E6EAEE;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 200;
@@ -507,20 +508,20 @@ section {
   border-radius: 35px;
   left: -8px;
   top: 0;
-  background: #1f5297;
-  border: 2px solid #1f5297;
+  background: #556D8C;
+  border: 2px solid #556D8C;
 }
 
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio a {
-  color: white;
+  color: #4795E4;
   text-decoration: none;
 }
 
 .portfolio a:hover {
-  color: lightgrey;
+  color: #0D73DA;
   text-decoration: none;
 }
 
@@ -1054,7 +1055,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background:  #556D8C;
 }
 
 #footer .copyright {
