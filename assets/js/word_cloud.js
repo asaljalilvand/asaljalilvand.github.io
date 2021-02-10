@@ -1,3 +1,5 @@
+//based on 
+//https://bl.ocks.org/jyucsiro/767539a876836e920e38bc80d2031ba7
 function isNumeric(word){
   return !isNaN(word)
 }
