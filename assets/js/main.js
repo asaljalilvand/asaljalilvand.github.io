@@ -191,3 +191,29 @@
   });
 
 })(jQuery);
+
+
+// Word Cloud
+var contact_div = $('#wordcloud');
+var drew_wc = false;
+var word_count;
+$(window).scroll(function() {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+    var elemTop = $(contact_div).offset().top;
+    var elemBottom = elemTop + $(contact_div).outerHeight();
+	
+    if (elemBottom <= docViewBottom && !drew_wc) {
+		drew_wc = true;
+       //text_string= $('body').text();
+	   text_string = document.body.innerText
+	   word_count = initialize_word_count_from_text(text_string)
+		drawWordCloud(word_count,1)
+    }
+});
+
+var $wc_min = $("#wc_min")
+$wc_min.on("change", function (event) {
+	drawWordCloud(word_count,$wc_min.val())
+})
+

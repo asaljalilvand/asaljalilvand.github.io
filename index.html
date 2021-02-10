@@ -508,9 +508,8 @@
 
       </div>
     </section><!-- End Portfolio Section -->
-
-
-    <!-- ======= Contact Section ======= -->
+	
+	 <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
@@ -533,6 +532,36 @@
         </div>
       </div>
     </section><!-- End Contact Section -->
+	
+	
+	<!-- ======= Word Cloud ======= -->
+    <section id="wc">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>A fun wrap up!</h2>
+        </div>
+
+        	<div class="row">
+		<div class="col center-block text-center">
+		<form>
+			<div class="form-group">
+				<label for="wc_min">Minimum word count</label>
+				<input  id="wc_min" type="number" value="1" min="1" max="50" class="rounded border-secondary"/>
+			</div>
+		</form>
+		
+		
+			<div id="wordcloud">
+			</div>
+		</div>			
+	</div>	
+
+        </div>
+      </div>
+    </section><!-- End Word Cloud Section -->
+	
+	
 	
 	<div class="row">
 		<div class="col center-block text-center goodbye">
@@ -581,6 +610,10 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
 
+  <!--D3 and word cloud -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="assets/js/d3.layout.cloud.js"></script>
+  <script src="assets/js/word_cloud.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
