@@ -13,6 +13,26 @@
 background-color: #FF9B9E;
 font-size: small;
 }
+.ml-project
+{
+background: #eceaf7;
+}
+.nlp-project
+{
+background: #ffffc4;
+}
+.va-project
+{
+background: #F0DEDF;
+}
+.vis-project
+{
+background: #fedae4;
+}
+.ws-project
+{
+background: #e1cac1;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;

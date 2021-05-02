@@ -214,7 +214,7 @@
 			
 			<div class="resume-item">
               <h4>Research Assistant</h4>
-              <h5>Sept. 2019 – Present</h5>
+              <h5>Sept. 2019 – May 2021</h5>
               <p><em>DeepSense, Dalhousie University, Halifax, Canada</em></p>
               <div style="font-size:small;">
                 <p>
@@ -293,7 +293,7 @@
             
             <div class="resume-item">
               <h4>Masters of Computer Science</h4>
-              <h5>Sept. 2019 - Present</h5>
+              <h5>Sept. 2019 - May 2021</h5>
 			  <p><em>Dalhousie University, Halifax, Canada</em></p>
 			  <div style="font-size:small;">
 					<p>GPA A</p>		
@@ -353,19 +353,45 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active" style="background:#fff;">All</li>
-              <li data-filter=".filter-ml" style="background:#deeeff;">Machine Learning</li>
-			  <li data-filter=".filter-nlp" style="background:#efd4ff;">NLP</li>
-			  <li data-filter=".filter-va" style="background:#e4ffde;">Visual Analytics</li>
-              <li data-filter=".filter-vis" style="background:#fffbde;">Interactive Visualization</li>
-			  <li data-filter=".filter-ws" style="background:#ffdee9;">Web Service</li>
+              <li data-filter=".filter-ml" class="ml-project">Machine Learning</li>
+			  <li data-filter=".filter-nlp" class="nlp-project">NLP</li>
+			  <li data-filter=".filter-va" class="va-project">Visual Analytics</li>
+              <li data-filter=".filter-vis" class="vis-project">Interactive Visualization</li>
+			  <li data-filter=".filter-ws" class="ws-project">Web Service</li>
             </ul>
           </div>
         </div>
 
         <div class="portfolio-container" data-aos="fade-up" data-aos-delay="100">
 		
-		
-          <div class="portfolio-item filter-ml shadow-sm rounded" style="background:#deeeff;">
+			<div class="portfolio-item filter-va shadow-sm rounded va-project">
+              <h5>SeRViz: an Interactive Visualization Framework for the Analysis of Sequential Rules and Frequent Itemsets</h5>
+			  <p>* Masters thesis<p>
+			  <p>Exploratory research on log of ground handling operations at Halifax Stanfield International Airport collected by Assaia Apron AI<br>
+<b>Objective:</b> Finding delay-related patterns affecting turnaround performance. <br>
+<b>Methodology:</b> Using data mining and visualization of patterns with a novel matrix-based approach<br>
+<b>Evaluation:</b> 1) Domain expert feedback on visual prototype 2) User test for measuring workload with NASA-TLX tool for a set of analytical tasks with both plain-text and SeRVis prototype. The NASA-TLX results for the two set of tasks are compared with paired t-test.
+<br>
+<b>Results:</b> SeRVis is a novel visual analytics tool for mining and exploring frequent patterns. Based on our experiments it reduces the cognitive load of users for the said tasks compared to the popular off-the-shelf data mining tool, SPMF.
+
+			  <br>
+			  <span class="badge rounded-pill shadow-sm badge-tech">Python</span>
+				<span class="badge rounded-pill shadow-sm badge-tech">SPMF</span>
+				<span class="badge rounded-pill shadow-sm badge-tech">Flask</span>
+				<span class="badge rounded-pill shadow-sm badge-tech">Javascript</span>
+				<span class="badge rounded-pill shadow-sm badge-tech">Vue.js</span>
+				<span class="badge rounded-pill shadow-sm badge-tech">D3</span>
+			  </p>
+			   <span class="badge bg-light "><a href="https://youtu.be/snxpXPj1Vmg">
+			  <i class="icofont-youtube-play"></i> Video Demo</a></span>
+			  
+			   <span class="badge bg-light "><a href="https://dalspace.library.dal.ca//handle/10222/80445">
+			  <i class="icofont-ebook"></i> Thesis on DalSpace online library</a></span>
+				
+            </div>
+			
+			
+          <div class="portfolio-item filter-ml shadow-sm rounded ml-project">
               <h5>Exploratory Data Analysis and Quantile Regression with LightGBM and Pytorch </h5>
 			  <p>Having learnt about quantile regression, I decided to try it myself and it resulted in <a href="https://www.kaggle.com/asal73/eda-quantile-regression-lightgbm-pytorch">
 			  this Kaggle kernel</a>. I did a series of exploratory data analysis steps to understand the data better, then I tried two tree-based 
@@ -385,7 +411,7 @@
 			  
           </div>
 		  
-		  <div class="portfolio-item filter-ml shadow-sm rounded" style="background:#deeeff;">
+		  <div class="portfolio-item filter-ml shadow-sm rounded ml-project">
               <h5>Acoustic Scene Classification</h5>
 			  <p>* Teamed with two other MSC students.<p>
 			  <p>This project was done as the final project of <em>Deep Learning</em> course, summer 2020. 
@@ -402,7 +428,7 @@
 			  <em>The team decided not to publish the code for now, in case we wanted to use it for DCASE 2021 competition.</em>
            </div>
 		   
-		   <div class="portfolio-item filter-nlp shadow-sm rounded" style="background:#efd4ff;">
+		   <div class="portfolio-item filter-nlp shadow-sm rounded nlp-project">
               <h5>Extractive Text Summarization and Keyword Extraction</h5>
 			  <p>This project was done as the final project of <em>Advanced Topics in NLP</em> course, winter-spring 2020. 
 			  In this project, we aim to improve off-the-shelf products for text summarization and keyword extraction. These products use statistical 
@@ -419,7 +445,7 @@
 			  
            </div>
 		  
-          <div class="portfolio-item filter-ml shadow-sm rounded" style="background:#deeeff;">
+          <div class="portfolio-item filter-ml shadow-sm rounded ml-project">
               <h5>Reuters Corpus text classification with Keras</h5>
 			  <p>This project was done as the final project of <em>Machine Learning for Bid Data</em> course, fall 2019. The goal is to train a model to 
 			  classify news articles into topics. I used deep autoencoders for feature extraction and deep neural network for classification. I 
@@ -438,7 +464,7 @@
 			  <i class="icofont-code"></i> Code</a></span>
            </div>
 		   
-		   <div class="portfolio-item filter-va shadow-sm rounded" style="background:#e4ffde;">
+		   <div class="portfolio-item filter-va shadow-sm rounded va-project">
               <h5>Airbnb Recommender System</h5>
 			  <p>* Teamed with three other MSC students.<p>
 			  <p>This project was done as the final project of <em>Visual Analytics</em> course, fall 2019. 
@@ -465,7 +491,7 @@
 				
             </div>
 			
-		    <div class="portfolio-item filter-vis shadow-sm rounded" style="background:#fffbde;">
+		    <div class="portfolio-item filter-vis shadow-sm rounded vis-project">
               <h5>Interactive RadVis and Star Coordinates with D3</h5>
 			  <p>RadVis and Star Coordinates are used for visualization of multivariate datasets in a 2D projection. This interactive implementation
 			  allows the user to select dataset of choice, change colours, move the anchors/axes and more.
@@ -483,7 +509,7 @@
 			  <i class="icofont-code"></i> Code</a>	</span>		  			  
             </div>
 			
-			<div class="portfolio-item filter-ws shadow-sm rounded" style="background:#ffdee9;">
+			<div class="portfolio-item filter-ws shadow-sm rounded ws-project">
               <h5>Telegram Bot-Creator Bot</h5>
 			  <p>Bachelor's thesis project, Jan. 2018, Shahid Beheshti University.<br>
 			  Telegram is one of the most popular messaging apps in the world, and bots are one of its popular features. 
