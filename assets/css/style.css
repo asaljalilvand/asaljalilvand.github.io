@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 .badge-tech
 {
-background-color: #FF9B9E;
+background-color: #F4BFD4;
 font-size: small;
 }
 .ml-project
@@ -23,7 +23,7 @@ background: #ffffc4;
 }
 .va-project
 {
-background: #F0DEDF;
+background: #FBEFEA;
 }
 .vis-project
 {
@@ -31,7 +31,7 @@ background: #F0FFFF;
 }
 .ws-project
 {
-background: #E0EEE0;
+background: #EBF7EB;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -39,12 +39,12 @@ body {
 }
 
 a {
-  color: #37b3ed;
+  color: #F5CBDD;
   text-decoration: none;
 }
 
 a:hover {
-  color: #47c2f6;
+  color: #F5CBDD;
   text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #4780C8;
+  background:  #637aa0;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -96,12 +96,12 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 270px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background:  #556D8C;
+  background:   #637aa0;
   overflow-y: auto;
 }
 
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  
+
 }
 
 #header .profile h1 {
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #BFD0E5;
   color: #fff;
   text-decoration: none;
 }
@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color:#F5CBDD;
 }
 
 /* Mobile Navigation */
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #149ddd;
+  color: #F5CBDD;
 }
 
 .mobile-nav-active {
@@ -248,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: #E8CFB8;
+  background: #F0F8FF;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 270px;
 }
 
 #hero h1 {
@@ -268,18 +268,26 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color:  #A7C1EB;
+}
+
+#hero h3 {
+  margin: 0 0 10px 0;
+  /*font-size: 64px;*/
+  /*font-weight: 700;*/
+  /*line-height: 56px;*/
+  color: #637aa0;
 }
 
 #hero p {
-  color: #fff;
+  color: #A7C1EB;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #fff;
+  color:  #A7C1EB;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
@@ -327,7 +335,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #637aa0;
 }
 
 .section-title h2::after {
@@ -336,7 +344,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #7da3f8;
+  background: #B6D7F0;
   bottom: 0;
   left: 0;
 }
@@ -513,8 +521,8 @@ section {
 }
 
 .resume .resume-item ul {
-  padding-left: 20px;
-  list-style: none;
+  padding-left: 15px;
+  /*list-style: none;*/
 }
 .resume .resume-item:last-child {
   padding-bottom: 0;
@@ -536,12 +544,12 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio a {
-  color: #4795E4;
+  color:#8CB4EF;
   text-decoration: none;
 }
 
 .portfolio a:hover {
-  color: #0D73DA;
+  color:#8CB4EF;
   text-decoration: none;
 }
 
@@ -582,7 +590,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #8CB4EF;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -752,11 +760,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #C5D9EE;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #EEF4FA;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -803,12 +811,12 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background:  #BFD0E5;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #BFD0E5;
   color: #fff;
 }
 
@@ -1073,9 +1081,9 @@ section {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 270px;
   z-index: 9999;
-  background:  #556D8C;
+  background:   #637aa0;
 }
 
 #footer .copyright {
