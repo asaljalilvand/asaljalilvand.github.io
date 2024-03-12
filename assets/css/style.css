@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: 90%;
   height: 100vh;
   background-size: cover;
 }
@@ -268,7 +268,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color:  #A7C1EB;
 }
 
 #hero h3 {
@@ -280,9 +279,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p {
-  color: #A7C1EB;
   margin-bottom: 50px;
-  font-size: 26px;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -362,10 +360,10 @@ section {
   color: #173b6c;
 }
 
-.about .content ul {
+/*.about .content ul {
   list-style: none;
   padding: 0;
-}
+}*/
 
 .about .content ul li {
   padding-bottom: 10px;
